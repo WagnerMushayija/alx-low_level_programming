@@ -1,6 +1,6 @@
-include "main.h"
+#include "main.h"
 /**
- * _isupper - capital or not
+ * _isupper - function capital or not
  * Return: 1 or 0 for success
  * @c: to be checked
  **/
@@ -8,5 +8,8 @@ include "main.h"
 /*small descripiton*/
 int _isupper(int c)
 {
-	return (c >= 'A' && c <= 'Z');
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
