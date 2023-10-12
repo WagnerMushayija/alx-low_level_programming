@@ -1,16 +1,19 @@
 include "main.h"
-/*
- * main - capital or not
+/**
+ * _isupper - capital or not
  * Return: 1 or 2 for success
+ * @c: to be checked
  **/
+
+/*small descripiton*/
 int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
-		return 1;
+		return (1);
 	}
 	else
 	{
-		return 0;
+		return (0);
 	}
 }
