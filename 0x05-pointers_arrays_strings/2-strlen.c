@@ -1,5 +1,5 @@
 #include "main.h"
-#include<stdio.h>
+#include <stdio.h>
 /**
  * _strlen - gives the length
  * @s: variable to be used
