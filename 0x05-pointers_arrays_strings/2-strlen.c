@@ -5,10 +5,11 @@
  * @s: variable to be used
  * Return: 0 if successful
  */
-int _strlen(int *s)
+int _strlen(char *s)
 {
 	int len = 0;
 
+	i = 0;
 	while (s[i] != '\0')
 	{
 		len++;
