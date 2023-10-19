@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * leet - encodes a string as specified
+ * leet - encodes a string as specified "1337"
  * @str: the input
  * Return: the modified text
  */
