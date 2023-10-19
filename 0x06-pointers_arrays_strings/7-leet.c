@@ -14,21 +14,20 @@ char *leet(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		for (j = 0; j < 10; j++)
+		{
+			if (str[i] == leetMap[j])
 			{
-				if (str[i] == leetMap[j])
+				if (j < 5)
 				{
-					if (j < 5)
-					{
-						str[i] = j + '0';
-					}
-					else
-					{
-                    				str[i] = j + 33;
-					}
-                			break;
+					str[i] = j + '0';
 				}
+				else
+				{
+					str[i] = j + 33;
+				}
+				break;
 			}
+		}
 	}
-
 return (str);
 }
