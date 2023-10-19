@@ -7,18 +7,18 @@
  * @n: number counted
  * return: 0 if sucess
  */
-char *_strncpy(char *dest, char *src, int i)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0;
 
 	while(i < n && src[i] != '\0')
 	{
-		dest[1] = src[1];
+		dest[i] = src[i];
 		i++;
 	}
 	while (i < n)
 	{
-		dest[1] = '\0';
+		dest[i] = '\0';
 		i++;
 	}
 	return (dest);
