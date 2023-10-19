@@ -5,9 +5,8 @@
  * @dest: string used
  * @src: string used
  * @n: number counted
- * return: 0 if sucess
+ * Return: dest if sucess
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0;
