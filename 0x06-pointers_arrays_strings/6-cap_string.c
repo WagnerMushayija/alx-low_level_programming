@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * cap_string - function that capitalizes
- * @str: string to be used
+ * @s: string to be used
  * Return: string for success
  */
 char *cap_string(char *s)
