@@ -7,7 +7,7 @@
  * @n: it's size
  * Return: 0 if successful
  */
-char _strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int dest_len = 0;
 
@@ -22,6 +22,6 @@ char _strncat(char *dest, char *src, int n)
 		dest[dest_len + i] = src[i];
 		i++;
 	}
-	dest[dest_len + 1] = '\0';
+	dest[dest_len + i] = '\0';
 	return (dest);
 }
