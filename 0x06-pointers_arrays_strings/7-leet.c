@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * leet - encodes a string into "1337" as specified
- * @str: the input string
- * Return: a pointer to the modified string
+ * leet - encodes a string as specified
+ * @str: the input
+ * Return: the modified text
  */
 char *leet(char *str)
 {
@@ -16,12 +15,12 @@ char *leet(char *str)
 	{
 		for (j = 0; j < 10; j++)
 		{
-		if (str[i] == leetMap[j])
+			if (str[i] == leetMap[j])
 			{
 				if (j < 5)
 				{
 					str[i] = j + '0';
-                		}
+				}
 				else
 				{
 					str[i] = j + 33;
@@ -30,5 +29,5 @@ char *leet(char *str)
 			}
 		}
 	}
-    return (str);
+return (str);
 }
