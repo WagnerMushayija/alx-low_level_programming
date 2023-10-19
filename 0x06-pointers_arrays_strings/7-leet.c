@@ -23,7 +23,10 @@ char *leet(char *str)
 				}
 				else
 				{
-					str[i] = j + 33;
+					if (str[i] != 'e' && str[i] != 'E')
+					{
+						str[i] = j + 33;
+					}
 				}
 				break;
 			}
