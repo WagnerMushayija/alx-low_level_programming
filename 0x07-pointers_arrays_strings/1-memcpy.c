@@ -7,7 +7,7 @@
  * @n: how much u wanna copy
  * Return: pointer
  */
-cahr *_memcpy(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 
