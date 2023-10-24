@@ -9,28 +9,18 @@ char *leet(char *str)
 {
 	int i, j;
 
-	char leetMap[10] = {'o', 'l', 'z', 'e', 'a', 't', 'g', 'q', 'A', 'E'};
+	char *a = "aAeEoOtTlL";
+	char *b = "4433007711";
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			if (str[i] == leetMap[j])
+			if (s[i] == a[j])
 			{
-				if (j < 5)
-				{
-					str[i] = j + '0';
-				}
-				else
-				{
-					if (str[i] != 'e' && str[i] != 'E')
-					{
-						str[i] = j + 33;
-					}
-				}
-				break;
+				s[i] = b[j];
 			}
 		}
 	}
-return (str);
+	return (s);
 }
