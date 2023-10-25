@@ -23,13 +23,13 @@ int is_prime_number(int n)
  */
 int act_prime(int n, int m)
 {
-	if (n % m == 0 && m > 0)
-	{
-		return (0);
-	}
 	if (m == 1)
 	{
 		return (1);
+	}
+	if (n % m == 0 && m > 0)
+	{
+		return (0);
 	}
 	return (act_prime(n, m - 1));
 }
