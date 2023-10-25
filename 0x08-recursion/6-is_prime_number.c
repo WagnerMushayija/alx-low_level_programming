@@ -27,7 +27,7 @@ int act_prime(int n, int m)
 	{
 		return (0);
 	}
-	if (m == 0)
+	if (m == 1)
 	{
 		return (1);
 	}
