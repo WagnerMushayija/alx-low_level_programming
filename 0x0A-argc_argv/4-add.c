@@ -4,7 +4,7 @@
 #include <ctype.h>
 /**
  * main - function
- * argc: argument count
+ * @argc: argument count
  * @argv: argoument vector
  * Return: 0 if success
  */
