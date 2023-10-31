@@ -42,7 +42,7 @@ char **strtow(char *str)
 
 	while (*(str + str_len))
 		str_len++;
-		num_words = c_words(str);
+	num_words = c_words(str);
 	if (num_words == 0)
 	return (NULL);
 
