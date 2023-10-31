@@ -5,7 +5,7 @@
  * @str: string used
  * Return: null if fail
  */
-char *_strdup(const char *str) 
+char *_strdup(const char *str)
 {
 	size_t len;
 
