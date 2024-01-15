@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * _putchar - for cout
- * @c: character to print out
- * Return: 0 if correct
+ * _putchar - prints strings
+ * @c: string to be used
+ * Return: 0 if success
  */
 int _putchar(char c)
 {
